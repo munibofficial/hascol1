@@ -1,0 +1,71 @@
+/* Form and Preview container */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Form */
+  .form {
+    width: 25%;
+  }
+  
+  /* Form fields */
+  .form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Preview section */
+  .preview {
+    width: 65%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+  }
+  
+  /* Preview table */
+  .preview table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .preview th,
+  .preview td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .preview th {
+    background-color: #f2f2f2;
+  }
+  
+  .preview tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .preview tr:hover {
+    background-color: #ddd;
+  }
+  
